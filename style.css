@@ -7,8 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body{
-    height: 100vh;
+html, body {
+    height: 110vh;
     width: 100vw;
     background-color: black;
 }
@@ -26,9 +26,9 @@ main {
 
 section#telefone{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-55%, -50%);
     height: 627px;
     width: 311px;
     
@@ -41,4 +41,21 @@ iframe#tela{
     left: 22.2px;
     width: 263px;
     height: 467px;
+}
+section#redes {
+    text-align: left;
+}
+section#redes > a >img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.358);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px white;
+    transition: 1s border .1s;
 }
